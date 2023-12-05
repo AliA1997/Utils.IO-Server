@@ -1,0 +1,20 @@
+{
+  "$schema": "https://nswag.dev/schemas/nswag.json",
+  "runtime": "Net60",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "fromDocument": {
+      "assemblyPaths": [
+        "Utils.IO Server.dll"
+      ],
+      "namespace": "Utils.IO_Server"
+    }
+  },
+  "codeGenerators": {
+    "swaggerToTypeScriptClient": {
+      "type": "SwaggerToTypeScriptClientGeneratorSettings",
+      "template": "React",
+      "output": "$(ProjectDir)bin/client/TypeScript/$(ProjectName)-client.ts"
+    }
+  }
+}

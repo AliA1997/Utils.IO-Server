@@ -1,0 +1,9 @@
+.vs
+.config
+obj
+bin
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+appsettings.json
+TypescriptClient.ts
